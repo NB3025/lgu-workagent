@@ -31,6 +31,7 @@ const CHAT_API_URL = "http://localhost:8000";
 ```bash
 cd ~/lgu-workagent/backend
 python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirement.txt
 python app.py
 ```
